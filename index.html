@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timezone Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div >
+        <h2>TIME ZONE API </h2>
+        <h2>Your current-timezone</h2>
+        
+    </div>
+    <div id="current-timezone">
+        <h3>Name of Time Zone :</h3>
+        <h3>Latitude :</h3>
+        <h3>Longitude :</h3>
+        <h3>offset STD :</h3>
+        <h3>offset STD Second :</h3>
+        <h3>offset DST :</h3>
+        <h3>offset DST Second :</h3>
+        <h3>Country :</h3>
+        <h3>Pncode :</h3>
+        <h3>City :</h3>
+    </div>
+    <div id="search-timezone">
+        <h2>Find Timezone by Address:</h2>
+        <input type="text" id="address-input" placeholder="Enter Address">
+        <button onclick="findTimezone()">Find Timezone</button>
+        <p id="timezone-result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

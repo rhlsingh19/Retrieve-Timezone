@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#current-timezone{
+    border: 1px solid black;
+    padding:10px;
+    margin: 10px;
+}
+#current-timezone, #search-timezone {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
